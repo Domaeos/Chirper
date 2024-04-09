@@ -47,6 +47,7 @@ class ChirpPolicy
     public function delete(User $user, Chirp $chirp)
     {
         //
+        return $this->update($user, $chirp);
     }
 
     /**
